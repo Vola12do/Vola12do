@@ -1,5 +1,5 @@
 # 💫 About Me:
-I am currently studying, and an intern
+I am completed my BS in Computer Science from Gujarat University, and an intern at PHQ RP
 
 
 ## 🌐 Socials:
