@@ -1,5 +1,5 @@
 # 💫 About Me:
-I am completed my BS in Computer Science from Gujarat University, and an intern at PHQ RP
+I have completed my BS in Computer Science from Gujarat University, and an intern at PHQ RP
 
 
 ## 🌐 Socials:
