@@ -35,7 +35,7 @@ fn main() {
             "Cloud & SIEM Telemetry (GCP, Docker, Splunk, Elastic Stack, Suricata)",
         ],
         disclosures: "CERT-In Coordinated Disclosure (Critical IDOR — CVSS v3.1: 10.0)",
-        patents: "NoCTF — Ephemeral Containerized Labs-as-a-Service (Patent Filed)",
+        projects: "NoCTF — Ephemeral Containerized Labs-as-a-Service (GCP & Docker)",
         portfolio: "https://vola12do.github.io/",
     };
 
@@ -90,7 +90,7 @@ fn main() {
 | **`[VULN-01]`** | **Critical IDOR & Broken Access Control** | **`CVSS 10.0` · CERT-In** | Identified critical authorization bypass in enterprise web infrastructure enabling unauthorized cross-tenant data access; coordinated disclosure via **CERT-In**. |
 | **`[VULN-02]`** | **Hardcoded AES-128-GCM Mobile Keys** | **Mobile / Flutter RE** | Extracted static AES-128 keys and cleartext storage from decompiled bytecode (`JADX` / `APKTool` / `MobSF`) via Shannon entropy analysis for offline decryption. |
 | **`[VULN-03]`** | **Broken Object Level Authorization (BOLA)** | **OWASP API1:2023** | Mapped REST API endpoints via `HTTP Toolkit` & `Burp Suite` and proved cross-account data access due to missing server-side object ownership checks. |
-| **`[SYS-01]`** | **NoCTF — Labs-as-a-Service** | **GCP · Docker · Patent Filed** | Self-built ephemeral offensive security lab platform provisioning isolated Docker environments on GCP with Supabase authentication. |
+| **`[SYS-01]`** | **NoCTF — Labs-as-a-Service** | **GCP · Docker · Supabase** | Self-built ephemeral offensive security lab platform provisioning isolated Docker environments on GCP with Supabase authentication. |
 | **`[SYS-02]`** | **Smart Denture Forensic NFC Scanner** | **NFSU Gandhinagar** | Embedded passive `NTAG213` RFID/NFC micro-tags into dental prosthetics with `RC522` Arduino firmware for disaster victim identification under thermal stress. |
 | **`[SYS-03]`** | **SOARX & RF Hardware Toolkits** | **Python · ESP32 · nRF24L01** | Built [`LaptopSecurityDashboard`](https://github.com/Vola12do/LaptopSecurityDashboard), [`gtd-dashboard`](https://github.com/Vola12do/gtd-dashboard), [`BLE_Jammer`](https://github.com/Vola12do/BLE_Jammer_Using_ESP32_And_Nrf24l01_), [`ESP8266_Deauther`](https://github.com/Vola12do/IoT-WiFi-Attack-Tools-ESP8266-Deauther), and [`Rubber_Ducky_HID`](https://github.com/Vola12do/IoT-Rubber-Ducky-Using-Arduino-Micro-Controller). |
 
