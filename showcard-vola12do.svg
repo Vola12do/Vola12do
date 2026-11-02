@@ -1,94 +1,94 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 340" width="920" height="340" role="img" aria-label="Vishwash Tank (@Vola12do) — Minimalist Chromatic Portfolio Showcard">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 310" width="880" height="310" role="img" aria-label="Vishwash Tank (@Vola12do) — Retro Zine Portfolio Card">
   <defs>
     <style>
-      .bg { fill: #ECECEC; }
-      .ink { fill: #171717; font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif; }
-      .muted { fill: rgba(23, 23, 23, 0.48); font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif; }
-      .serif { fill: #171717; font-family: 'Georgia', 'Times New Roman', serif; }
-      .mono { fill: #171717; font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace; }
-      .line { stroke: rgba(23, 23, 23, 0.12); stroke-width: 1; }
-      .mark-bg { fill: #171717; }
-      .mark-txt { fill: #ECECEC; font-family: 'Inter', -apple-system, sans-serif; font-size: 10px; font-weight: 600; letter-spacing: 0.04em; }
+      .paper { fill: #f6f1e6; }
+      .card { fill: #fffdf8; stroke: #18181b; stroke-width: 2; }
+      .shadow { fill: #18181b; }
+      .mono { fill: #18181b; font-family: 'Space Mono', 'JetBrains Mono', monospace; }
+      .muted { fill: #55525b; font-family: 'JetBrains Mono', monospace; }
+      .pill { stroke: #18181b; stroke-width: 1.5; }
     </style>
   </defs>
 
-  <!-- Gallery Stone Canvas -->
-  <rect class="bg" x="0" y="0" width="920" height="340" rx="2" />
-  <rect x="0.5" y="0.5" width="919" height="339" fill="none" stroke="rgba(23,23,23,0.14)" />
+  <!-- Retro Paper Background -->
+  <rect class="paper" x="0" y="0" width="880" height="310" rx="4" />
+  <rect x="1" y="1" width="878" height="308" fill="none" stroke="#18181b" stroke-width="2" rx="4" />
 
-  <!-- Top Minimalist Header Row (HuyML 12px Grotesque Grid) -->
-  <text class="ink" x="32" y="34" font-size="11" font-weight="600">Vishwash Tank</text>
-  <text class="muted" x="32" y="49" font-size="11">@Vola12do</text>
+  <!-- Top 5-Color Chromatic Ribbon -->
+  <rect x="2" y="2" width="175" height="7" fill="#ff5a36" />
+  <rect x="177" y="2" width="175" height="7" fill="#f4b41a" />
+  <rect x="352" y="2" width="176" height="7" fill="#1fa372" />
+  <rect x="528" y="2" width="175" height="7" fill="#3b6ef6" />
+  <rect x="703" y="2" width="175" height="7" fill="#9b5de5" />
+  <line x1="0" y1="9" x2="880" y2="9" stroke="#18181b" stroke-width="2" />
 
-  <text class="muted" x="190" y="34" font-size="11">Discipline</text>
-  <text class="ink" x="190" y="49" font-size="11" font-weight="500">VAPT · APK Forensics · Embedded RF</text>
+  <!-- Main Card Shadow + Box -->
+  <rect class="shadow" x="25" y="29" width="580" height="258" />
+  <rect class="card" x="20" y="24" width="580" height="258" />
 
-  <text class="muted" x="450" y="34" font-size="11">Recognition</text>
-  <text class="ink" x="450" y="49" font-size="11" font-weight="500">CERT-In CVSS 10.0 · Patent Filed (NoCTF)</text>
+  <!-- Window Header Bar -->
+  <rect x="20" y="24" width="580" height="28" fill="#ede6d6" stroke="#18181b" stroke-width="2" />
+  <circle cx="36" cy="38" r="5" fill="#ff5a36" stroke="#18181b" stroke-width="1.5" />
+  <circle cx="52" cy="38" r="5" fill="#f4b41a" stroke="#18181b" stroke-width="1.5" />
+  <circle cx="68" cy="38" r="5" fill="#1fa372" stroke="#18181b" stroke-width="1.5" />
+  <text class="mono" x="88" y="42" font-size="11" font-weight="bold">~/vishwash_tank.zine — vola12do~$</text>
 
-  <text class="muted" x="740" y="34" font-size="11">Working globally</text>
-  <text class="ink" x="740" y="49" font-size="11" font-weight="500">JAIPUR / AHMEDABAD, IN</text>
+  <!-- Title + Squiggly Chromatic Underline -->
+  <text class="mono" x="40" y="84" font-size="24" font-weight="bold">~/Vishwash Tank</text>
+  <path d="M40 94 C 75 88, 110 99, 145 92 C 180 86, 215 99, 250 92" stroke="#ff5a36" stroke-width="3" stroke-linecap="round" fill="none" />
 
-  <line class="line" x1="32" y1="68" x2="888" y2="68" />
+  <text class="muted" x="40" y="118" font-size="11.5">Security Researcher · Android APK Forensics · Hardware RF Tinkerer</text>
+  <text class="muted" x="40" y="136" font-size="11.5">SP Cyber Crime Intern @ Rajasthan Police HQ · NFSU Forensic R&amp;D</text>
 
-  <!-- Center Editorial Statement + Chromatic Triad Showcase -->
-  <text class="muted" x="32" y="98" font-size="11">01 / SELECTED DOSSIER</text>
-  <text class="serif" x="32" y="138" font-size="34">Uncovering critical flaws across</text>
-  <text class="serif" x="32" y="176" font-size="34" font-style="italic">APIs, mobile binaries &amp; silicon.</text>
+  <!-- Chromatic Retro Badges -->
+  <rect class="pill" x="40" y="152" width="166" height="24" fill="#ffe6df" />
+  <text class="mono" x="50" y="168" font-size="10.5" font-weight="bold">★ CVSS 10.0 (CERT-In)</text>
 
-  <!-- Chromatic Showcase Panel on Right -->
-  <rect x="540" y="84" width="116" height="96" fill="#171717" />
-  <rect x="657" y="84" width="116" height="96" fill="#D8D4CB" />
-  <rect x="774" y="84" width="114" height="96" fill="#FF5A36" />
-  <text class="mono" x="550" y="170" font-size="9" fill="#ECECEC">#171717</text>
-  <text class="mono" x="667" y="170" font-size="9" fill="#171717">#D8D4CB</text>
-  <text class="mono" x="784" y="170" font-size="9" fill="#FFFFFF">#FF5A36</text>
+  <rect class="pill" x="216" y="152" width="164" height="24" fill="#fff3d1" />
+  <text class="mono" x="226" y="168" font-size="10.5" font-weight="bold">📜 Patent Filed: NoCTF</text>
 
-  <line class="line" x1="32" y1="202" x2="888" y2="202" />
+  <rect class="pill" x="390" y="152" width="186" height="24" fill="#dcfce7" />
+  <text class="mono" x="400" y="168" font-size="10.5" font-weight="bold">🤖 PEAK 1500+ APK Suite</text>
 
-  <!-- Row 1: Work & Advisories Index (With 23x23 Chromatic Swatches) -->
-  <text class="mono" x="32" y="232" font-size="11" fill="rgba(23,23,23,0.48)">01</text>
-  <rect class="mark-bg" x="62" y="219" width="108" height="17" />
-  <text class="mark-txt" x="68" y="231">CVSS 10.0 CERT-IN</text>
-  <text class="ink" x="184" y="232" font-size="11" font-weight="500">Critical IDOR &amp; BOLA REST API Disclosures</text>
-  <!-- 23x23 Swatches -->
-  <rect x="470" y="216" width="18" height="18" fill="#171717" />
-  <rect x="492" y="216" width="18" height="18" fill="#F5D0C5" />
-  <rect x="514" y="216" width="18" height="18" fill="#E53E3E" />
-  <text class="muted" x="552" y="232" font-size="11">Rajasthan Police HQ (SP Cyber Crime) · Cyber Octet</text>
+  <rect class="pill" x="40" y="186" width="175" height="24" fill="#e0ebff" />
+  <text class="mono" x="50" y="202" font-size="10.5" font-weight="bold">📡 ESP32 + nRF24L01+</text>
 
-  <line class="line" x1="32" y1="248" x2="888" y2="248" />
+  <rect class="pill" x="225" y="186" width="165" height="24" fill="#f1e4ff" />
+  <text class="mono" x="235" y="202" font-size="10.5" font-weight="bold">🎓 B.Sc. CS (7.48 CGPA)</text>
 
-  <!-- Row 2 -->
-  <text class="mono" x="32" y="276" font-size="11" fill="rgba(23,23,23,0.48)">02</text>
-  <rect class="mark-bg" x="62" y="263" width="108" height="17" />
-  <text class="mark-txt" x="68" y="275">NOCTF &amp; PEAK</text>
-  <text class="ink" x="184" y="276" font-size="11" font-weight="500">Patent-Pending Threat Intel &amp; 1,500+ APK Forensics</text>
-  <!-- 23x23 Swatches -->
-  <rect x="470" y="260" width="18" height="18" fill="#1E242B" />
-  <rect x="492" y="260" width="18" height="18" fill="#E3E8EC" />
-  <rect x="514" y="260" width="18" height="18" fill="#2B6CB0" />
-  <text class="muted" x="552" y="276" font-size="11">NFSU Smart Denture NFC · ESP32 / nRF24L01 / HID</text>
+  <rect class="pill" x="400" y="186" width="176" height="24" fill="#fff3d1" />
+  <text class="mono" x="410" y="202" font-size="10.5" font-weight="bold">⚡ SOARX &amp; Elastic SIEM</text>
 
-  <line class="line" x1="32" y1="292" x2="888" y2="292" />
+  <!-- Bottom Motto Strip -->
+  <line x1="40" y1="228" x2="580" y2="228" stroke="#18181b" stroke-width="1.5" stroke-dasharray="4 4" />
+  <text class="mono" x="40" y="252" font-size="11" font-weight="bold">⚡ "I break APIs, dissect Android malware &amp; solder ESP32s btw"</text>
+  <text class="muted" x="40" y="270" font-size="10.5">Portfolio &amp; Blog → https://vola12do.github.io/</text>
 
-  <!-- Bottom Ruler & Live URL -->
-  <text class="muted" x="32" y="320" font-size="11">Selected work</text>
-  <text class="mono" x="115" y="320" font-size="11">08 / 08</text>
+  <!-- Right Side: Hand-Drawn Retro CRT Mascot Polaroid -->
+  <rect class="shadow" x="629" y="29" width="230" height="258" />
+  <rect class="card" x="624" y="24" width="230" height="258" />
+  <!-- Masking Tape -->
+  <rect x="704" y="16" width="70" height="16" fill="#f4b41a" stroke="#18181b" stroke-width="1.5" stroke-dasharray="3 2" />
 
-  <!-- Minimalist Ruler Ticks -->
-  <g transform="translate(190, 308)">
-    <rect x="0" y="2" width="2" height="12" fill="#FF5A36" />
-    <rect x="14" y="7" width="2" height="7" fill="rgba(23,23,23,0.25)" />
-    <rect x="28" y="7" width="2" height="7" fill="rgba(23,23,23,0.25)" />
-    <rect x="42" y="4" width="2" height="10" fill="rgba(23,23,23,0.4)" />
-    <rect x="56" y="7" width="2" height="7" fill="rgba(23,23,23,0.25)" />
-    <rect x="70" y="7" width="2" height="7" fill="rgba(23,23,23,0.25)" />
-    <rect x="84" y="4" width="2" height="10" fill="rgba(23,23,23,0.4)" />
-    <rect x="98" y="7" width="2" height="7" fill="rgba(23,23,23,0.25)" />
-    <rect x="112" y="7" width="2" height="7" fill="rgba(23,23,23,0.25)" />
-    <rect x="126" y="4" width="2" height="10" fill="rgba(23,23,23,0.4)" />
-  </g>
+  <rect x="638" y="42" width="202" height="190" fill="#ede6d6" stroke="#18181b" stroke-width="1.8" />
+  <!-- Chromatic Sun Dots -->
+  <circle cx="662" cy="66" r="11" fill="#ff5a36" stroke="#18181b" stroke-width="1.8" />
+  <circle cx="814" cy="70" r="8" fill="#f4b41a" stroke="#18181b" stroke-width="1.8" />
+  <!-- CRT Monitor Doodle -->
+  <rect x="684" y="76" width="106" height="86" rx="8" fill="#fffdf8" stroke="#18181b" stroke-width="2.4" />
+  <rect x="694" y="86" width="86" height="58" rx="5" fill="#181825" stroke="#18181b" stroke-width="2" />
+  <!-- Happy CRT Eyes & Prompt -->
+  <path d="M710 108 Q 715 102 720 108" stroke="#a6e3a1" stroke-width="2.2" stroke-linecap="round" fill="none" />
+  <path d="M750 108 Q 755 102 760 108" stroke="#a6e3a1" stroke-width="2.2" stroke-linecap="round" fill="none" />
+  <path d="M726 120 Q 735 127 744 120" stroke="#f9e2af" stroke-width="2.2" stroke-linecap="round" fill="none" />
+  <text x="702" y="138" fill="#89b4fa" font-family="monospace" font-size="8.5" font-weight="bold">&gt; cvss: 10.0_</text>
+  <!-- Stand & Keyboard -->
+  <path d="M718 162 L712 182 L762 182 L756 162" fill="#f6f1e6" stroke="#18181b" stroke-width="2.2" />
+  <rect x="696" y="182" width="82" height="10" rx="2" fill="#f4b41a" stroke="#18181b" stroke-width="2" />
+  <!-- Antenna -->
+  <path d="M764 76 L778 52" stroke="#18181b" stroke-width="2.2" stroke-linecap="round" />
+  <circle cx="780" cy="50" r="4" fill="#ff5a36" stroke="#18181b" stroke-width="1.8" />
 
-  <text class="ink" x="685" y="320" font-size="11" font-weight="600">https://vola12do.github.io/</text>
+  <text class="mono" x="652" y="256" font-size="10.5" font-weight="bold">fig 01. packets &amp; coffee ~</text>
+  <text class="muted" x="676" y="272" font-size="10">@Vola12do · India 🇮🇳</text>
 </svg>
