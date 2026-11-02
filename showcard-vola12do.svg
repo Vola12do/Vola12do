@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 340" width="100%" height="auto" role="img" aria-label="Vishwash Tank Field Instrument Telemetry Card">
+  <defs>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#1c1e24" stroke-width="0.75"/>
+    </pattern>
+    <pattern id="dots" width="8" height="8" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#252830"/>
+    </pattern>
+    <style>
+      .mono { font-family: 'JetBrains Mono', 'IBM Plex Mono', 'Courier New', monospace; }
+      .disp { font-family: 'Arial Narrow', 'Impact', 'Helvetica Neue', sans-serif; font-weight: 700; letter-spacing: 0.04em; }
+      @keyframes pulse {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.25; }
+      }
+      @keyframes scan {
+        0% { transform: translateX(0); }
+        50% { transform: translateX(18px); }
+        100% { transform: translateX(0); }
+      }
+      .led-live { animation: pulse 1.8s infinite ease-in-out; }
+      .bar-anim { animation: scan 4s infinite ease-in-out; }
+    </style>
+  </defs>
+
+  <!-- Outer Chassis -->
+  <rect x="2" y="2" width="876" height="336" rx="8" fill="#0b0c0e" stroke="#2a2d35" stroke-width="2"/>
+  <rect x="10" y="10" width="860" height="320" rx="4" fill="url(#grid)" stroke="#1f2229" stroke-width="1"/>
+
+  <!-- Top Orange Signal Accent Bar (Teenage Engineering / Nothing Style) -->
+  <rect x="10" y="10" width="860" height="4" fill="#ff5500"/>
+
+  <!-- Corner Calibration Crosshairs -->
+  <path d="M 22 26 L 34 26 M 28 20 L 28 32" stroke="#555b66" stroke-width="1.2"/>
+  <path d="M 846 26 L 858 26 M 852 20 L 852 32" stroke="#555b66" stroke-width="1.2"/>
+  <path d="M 22 314 L 34 314 M 28 308 L 28 320" stroke="#555b66" stroke-width="1.2"/>
+  <path d="M 846 314 L 858 314 M 852 308 L 852 320" stroke="#555b66" stroke-width="1.2"/>
+
+  <!-- Top Header Strip -->
+  <text x="46" y="38" fill="#8b929e" font-size="10" class="mono" letter-spacing="2">FIELD UNIT // VT-01 · SEC-OPS INSTRUMENT</text>
+  <circle cx="712" cy="34" r="4" fill="#ff5500" class="led-live"/>
+  <text x="724" y="38" fill="#eceae4" font-size="10" class="mono" letter-spacing="1.5">TELEMETRY: ONLINE</text>
+  <line x1="10" y1="52" x2="870" y2="52" stroke="#262932" stroke-width="1"/>
+
+  <!-- Left Main Identity Block -->
+  <text x="32" y="82" fill="#ff5500" font-size="11" class="mono" letter-spacing="2.2">01 // OPERATOR DOSSIER</text>
+  <text x="32" y="124" fill="#f4f2ec" font-size="34" class="disp">VISHWASH TANK</text>
+  <rect x="312" y="99" width="96" height="22" rx="3" fill="#17191e" stroke="#ff5500" stroke-width="1"/>
+  <text x="323" y="114" fill="#ff5500" font-size="11" class="mono" font-weight="bold">@Vola12do</text>
+
+  <text x="32" y="148" fill="#9ea4b0" font-size="12" class="mono">AppSec &amp; VAPT Researcher · Android/API Forensics · Hardware &amp; RF Lab</text>
+  <text x="32" y="168" fill="#68707d" font-size="11" class="mono">LOC: JAIPUR, RAJASTHAN, IN [26.9124° N, 75.7873° E] · B.Sc. CS (7.48 DISTINCTION)</text>
+
+  <!-- Nothing-style LED Dot Matrix Panel (Right Side) -->
+  <rect x="590" y="66" width="262" height="114" rx="4" fill="#111318" stroke="#282c35" stroke-width="1"/>
+  <rect x="598" y="74" width="246" height="98" fill="url(#dots)"/>
+  <text x="608" y="92" fill="#7c8390" font-size="9" class="mono" letter-spacing="1.5">SIGNAL MATRIX // ACTIVE OPS</text>
+  <!-- Lit LED indicators -->
+  <circle cx="614" cy="112" r="3.5" fill="#22c55e" class="led-live"/>
+  <text x="626" y="116" fill="#eceae4" font-size="11" class="mono">RAJ POLICE HQ (SP CYBER)</text>
+  <circle cx="614" cy="134" r="3.5" fill="#ff5500"/>
+  <text x="626" y="138" fill="#eceae4" font-size="11" class="mono">NFSU FORENSIC NFC LAB</text>
+  <circle cx="614" cy="156" r="3.5" fill="#38bdf8"/>
+  <text x="626" y="160" fill="#eceae4" font-size="11" class="mono">CERT-IN CVSS 10.0 DISCLOSED</text>
+
+  <!-- Divider -->
+  <line x1="10" y1="194" x2="870" y2="194" stroke="#262932" stroke-width="1"/>
+
+  <!-- Bottom 4-Bay Instrument Readout Strip -->
+  <!-- Bay 1 -->
+  <text x="32" y="218" fill="#7c8390" font-size="9" class="mono" letter-spacing="1.5">M01 // MAX SEVERITY</text>
+  <text x="32" y="252" fill="#ff5500" font-size="28" class="mono" font-weight="bold">CVSS 10.0</text>
+  <text x="32" y="272" fill="#9ea4b0" font-size="10" class="mono">Critical IDOR · CERT-In</text>
+  <line x1="225" y1="194" x2="225" y2="292" stroke="#262932" stroke-width="1"/>
+
+  <!-- Bay 2 -->
+  <text x="245" y="218" fill="#7c8390" font-size="9" class="mono" letter-spacing="1.5">M02 // MOBILE FORENSICS</text>
+  <text x="245" y="252" fill="#f4f2ec" font-size="28" class="mono" font-weight="bold">AES-128</text>
+  <text x="245" y="272" fill="#9ea4b0" font-size="10" class="mono">APK / Flutter Key Recovery</text>
+  <line x1="445" y1="194" x2="445" y2="292" stroke="#262932" stroke-width="1"/>
+
+  <!-- Bay 3 -->
+  <text x="465" y="218" fill="#7c8390" font-size="9" class="mono" letter-spacing="1.5">M03 // CLOUD &amp; PATENT</text>
+  <text x="465" y="252" fill="#22c55e" font-size="28" class="mono" font-weight="bold">NoCTF</text>
+  <text x="465" y="272" fill="#9ea4b0" font-size="10" class="mono">GCP Ephemeral Labs (Patent)</text>
+  <line x1="655" y1="194" x2="655" y2="292" stroke="#262932" stroke-width="1"/>
+
+  <!-- Bay 4 -->
+  <text x="675" y="218" fill="#7c8390" font-size="9" class="mono" letter-spacing="1.5">M04 // HARDWARE &amp; RF</text>
+  <text x="675" y="252" fill="#38bdf8" font-size="28" class="mono" font-weight="bold">2.4 GHz</text>
+  <text x="675" y="272" fill="#9ea4b0" font-size="10" class="mono">ESP32 · nRF24 · NTAG213</text>
+
+  <!-- Footer Status Bar -->
+  <line x1="10" y1="292" x2="870" y2="292" stroke="#262932" stroke-width="1"/>
+  <rect x="32" y="303" width="10" height="10" fill="#ff5500"/>
+  <text x="50" y="312" fill="#eceae4" font-size="10" class="mono" letter-spacing="1.2">PORTFOLIO TERMINAL: HTTPS://VOLA12DO.GITHUB.IO</text>
+  <text x="640" y="312" fill="#68707d" font-size="10" class="mono" letter-spacing="1">REV 2026.11 // ANTI-SLOP SPEC</text>
+</svg>
